@@ -1,0 +1,120 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# vcpkg
+vcpkg_installed/
+
+# debug information files
+*.dwo
+
+# test output & cache
+Testing/
+.cache/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editor/project-local state
+.vscode/
+
+# Generated Cartesian analysis artifacts; regenerate with scripts/image_to_end_effector.py
+Data/*_ee_positions.csv
+Data/*_ee_xy.png
+Data/*_ee_3d.png
+Data/*_greyscale.png
+
+# Keep the repository focused on current runnable demos instead of large stale replay dumps
+Data/*.txt
+!Data/rock.txt
+!Data/saitama.txt
+!Data/squidward.txt
+!Data/sz.txt
+
+# Editor backup
+*.save
+
+# Vendored/generated documentation, tests, examples, and sample credentials
+Visit/glm/doc/
+Visit/glm/test/
+Visit/CppServer/.github/
+Visit/CppServer/documents/
+Visit/CppServer/examples/
+Visit/CppServer/images/
+Visit/CppServer/performance/
+Visit/CppServer/tests/
+Visit/CppServer/tools/certificates/
+Visit/CppServer/www/
+Visit/test_sample/
+third_party/msrm_utils/third_party/json/doc/
+third_party/msrm_utils/third_party/json/test/
+third_party/msrm_utils/third_party/json/benchmarks/
+third_party/msrm_utils/third_party/json/.github/
+third_party/msrm_utils/third_party/**/test/
+third_party/msrm_utils/third_party/**/tests/
+third_party/msrm_utils/third_party/**/example/
+third_party/msrm_utils/third_party/**/examples/
+
+# Certificate/key material from vendored samples
+*.key
+*.pem
+*.pfx
+*.crt
+*.csr
